@@ -46,7 +46,7 @@ class Song
     genreHash = {artist[0], 1}
 
     genfres.each do |genre|
-      if
+      
     end
 
   end
