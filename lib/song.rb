@@ -90,7 +90,7 @@ class Song
 
     end
 
-    @@genreHash
+    @@artistHash
   end
 
 end
