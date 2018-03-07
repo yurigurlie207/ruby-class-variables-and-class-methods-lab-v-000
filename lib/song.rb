@@ -49,7 +49,7 @@ class Song
   end
 
   def self.genre_count
-    #@@genreHash[@@genres[0]] = 1
+    @@genreHash[@@genres[0]] = 1
     count = 0
     binding.pry
     @@genres.each do |genre|
