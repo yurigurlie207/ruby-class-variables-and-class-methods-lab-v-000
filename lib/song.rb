@@ -56,8 +56,8 @@ class Song
       @@genreHash.each do |genreH, count|
         #binding.pry
         if genre == genreH
-          binding.pry
           count = count + 1
+          binding.pry
           @@genreHash[genreH] = count
         end
       end
