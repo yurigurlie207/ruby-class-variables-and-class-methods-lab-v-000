@@ -46,7 +46,8 @@ class Song
     genreHash = {artist[0], 1}
 
     genres.each do |genre|
-
+      genreHash.each do |genreH, count|
+      end
     end
 
   end
