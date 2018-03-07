@@ -50,6 +50,7 @@ class Song
 
   def self.genre_count
     #@@genreHash[@@genres[0]] = 1
+    assigned = 0
 
     count = 0
     @@genres.each do |genre|
@@ -57,6 +58,7 @@ class Song
         if genre == genreH
           count = count + 1
           @@genreHash[genreH] = count
+          assigned = 1;
         end
       end
       @@genreHash[genre] = 1
