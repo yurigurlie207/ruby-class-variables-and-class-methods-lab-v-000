@@ -45,6 +45,7 @@ class Song
   end
 
   def self.genre_count
+    
     @@genres.each do |genre|
       @@genreHash.each do |genreH, count|
         if genre == genreH
@@ -53,7 +54,6 @@ class Song
         elsif
           @@genreHash[genreH] = 1
         end
-
       end
     end
 
