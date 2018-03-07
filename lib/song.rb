@@ -5,6 +5,8 @@ class Song
   @@artist_count = 0
   @@genres = []
   @@artists = []
+  @@genreHash = {}
+  @@artistHash = {}
 
 
   def initialize(name,artist,genre)
