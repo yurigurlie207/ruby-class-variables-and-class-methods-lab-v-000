@@ -58,9 +58,9 @@ class Song
         if genre == genreH
           count = count + 1
           @@genreHash[genreH] = count
-        elsif
-          @@genreHash[genreH] = 1
         end
+
+        @@genreHash[genreH] = 1
       end
     end
 
