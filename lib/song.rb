@@ -59,9 +59,8 @@ class Song
           count = count + 1
           @@genreHash[genreH] = count
         end
-
-        @@genreHash[genreH] = 1
       end
+      @@genreHash[genreH] = 1
     end
 
     @@genreHash
