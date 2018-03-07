@@ -45,6 +45,7 @@ class Song
   end
 
   def self.genre_count
+    @@genreHash[genreH] = 1
     
     @@genres.each do |genre|
       @@genreHash.each do |genreH, count|
