@@ -45,7 +45,6 @@ class Song
   end
 
   def self.genre_count
-    count = 0
     
     @@genres.each do |genre|
       @@genreHash.each do |genreH, count|
