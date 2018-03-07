@@ -74,7 +74,7 @@ class Song
   def self.artist_count
     count = 0
 
-    @@genres.each do |genre|
+    @@artists.each do |artist|
       assigned = 0
       @@genreHash.each do |genreH, count|
         if genre == genreH
