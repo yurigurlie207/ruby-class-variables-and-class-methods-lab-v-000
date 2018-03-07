@@ -57,7 +57,7 @@ class Song
         #binding.pry
         if genre == genreH
           count = count + 1
-          binding.pry
+          #binding.pry
           @@genreHash[genreH] = count
         end
       end
