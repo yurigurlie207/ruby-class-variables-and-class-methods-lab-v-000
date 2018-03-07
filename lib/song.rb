@@ -43,13 +43,13 @@ class Song
   end
 
   def self.genre_count
-    genreHash = []
+    genreHash = {}
 
 
   end
 
   def self.artist_count
-
+    artistHash = []
   end
 
 end
