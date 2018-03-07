@@ -43,13 +43,15 @@ class Song
   end
 
   def self.genre_count
-    genreHash = {}
-
+    genreHash = {artist[0], 1}
+    artists.each do |artist|
+      if artist ==
+    end
 
   end
 
   def self.artist_count
-    artistHash = []
+    artistHash = {}
   end
 
 end
