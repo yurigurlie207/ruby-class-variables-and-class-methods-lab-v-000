@@ -85,7 +85,7 @@ class Song
       end
 
       if assigned == 0
-        @@genreHash[genre] = 1
+        @@artistHash[artist] = 1
       end
 
     end
