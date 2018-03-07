@@ -51,7 +51,7 @@ class Song
   def self.genre_count
 
     count = 0
-    
+
     @@genres.each do |genre|
       assigned = 0
       @@genreHash.each do |genreH, count|
@@ -62,7 +62,9 @@ class Song
         end
       end
 
-      if assigned = 0 @@genreHash[genre] = 1
+      if assigned == 0
+        @@genreHash[genre] = 1
+      end
 
     end
 
