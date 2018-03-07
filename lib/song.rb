@@ -79,7 +79,7 @@ class Song
       @@artistHash.each do |artistH, count|
         if artist == artistH
           count = count + 1
-          @@artistHash[genreH] = count
+          @@artistHash[artistH] = count
           assigned = 1;
         end
       end
