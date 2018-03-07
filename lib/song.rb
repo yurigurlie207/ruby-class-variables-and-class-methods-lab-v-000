@@ -51,7 +51,7 @@ class Song
   def self.genre_count
     #@@genreHash[@@genres[0]] = 1
     count = 0
-
+    binding.pry
     @@genres.each do |genre|
       @@genreHash.each do |genreH, count|
         binding.pry
