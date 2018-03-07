@@ -52,7 +52,7 @@ class Song
       @@genreHash.each do |genreH, count|
         if genre == genreH
           count = count + 1
-          @@genreHash[genreH] = count
+          @@genreHash[genreH] = count + 1
         elsif
           @@genreHash[genreH] = 1
         end
